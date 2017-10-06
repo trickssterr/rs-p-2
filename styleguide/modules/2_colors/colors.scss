@@ -1,23 +1,25 @@
-$magenta: #ec008c;
-$black: #000;
-$grey-dark: #232525;
-$grey: #808080;
-$blue: #2fbbf9;
+$dark_purple: #5D2844	;
+$soft_black: #242424;
+$shadow_black: #000;
+$dark_gray: #6A6C6F;
+$light_gray: #F1F3F6;
+$dark_blue: #0C5B75;
+$dark_orange: #FDB515;
 
-.bg-magenta {
-	background-color: $magenta;
+.bg-purple {
+	background-color: $dark_purple;
 }
 
 .bg-black {
-	background-color: $black;
+	background-color: $soft_black;
 }
 
 .bg-grey {
-	background-color: $grey;
+	background-color: $background_gray;
 }
 
 .bg-blue {
-	background-color: $blue;
+	background-color: $dark_blue;
 }
 
 #colors {
@@ -29,7 +31,7 @@ $blue: #2fbbf9;
     p {
       position: absolute;
       padding: 3px 13px;
-      color: #666;
+      color: $soft_black;
       background-color: #fff;
       font-size: 12px;
       bottom: 0;
